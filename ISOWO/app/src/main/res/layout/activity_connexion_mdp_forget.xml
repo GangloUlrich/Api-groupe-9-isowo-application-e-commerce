@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:background="#EBEBEB"
+    tools:context=".ConnexionMdpForget">
+
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:foregroundGravity="bottom"
+        android:text="Forgot \nPassword"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:textSize="35sp"/>
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:foregroundGravity="bottom"
+        android:layout_height="wrap_content"
+        android:text="Aliquam in bibendum mauris.
+Sed vitae erat vel velit blandit pharetra
+vitae nec ante. Cras at est augue.
+Cras ut interdum elit. Ut malesuada a urna
+sit amet blandit. llis, orci ex tempus quam,
+id finibus "
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#8F8C8C"
+        android:textSize="15sp" />
+    <LinearLayout
+        android:background="#ffff"
+        android:padding="20dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:foregroundGravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="380dp"
+            android:height="100dp"
+            android:id="@+id/btnmail"
+            android:background="@drawable/controlebtn"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:id="@+id/btnnum"
+            android:layout_height="wrap_content"
+            android:width="380dp"
+            android:layout_marginTop="10dp"
+            android:height="100dp"
+            android:background="@drawable/controlebtn">
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Copyright JokerMavins-1999"
+            android:layout_marginTop="20dp"
+            android:textColor="#8F8C8C"
+            android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

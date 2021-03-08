@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:foregroundGravity="bottom"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".Inscription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottomradius"
+        android:gravity="bottom"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:textColorHint="#D1D1D1"
+            android:layout_marginTop="50dp"
+            android:hint="Pseudo"
+            android:id="@+id/pseudo"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/radius"
+            android:inputType="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="350dp"/>
+        <EditText
+            android:padding="10dp"
+            android:textColorHint="#D1D1D1"
+            android:layout_gravity="center"
+            android:id="@+id/prenom"
+            android:hint="Prenom"
+            android:background="@drawable/radius"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="350dp"/>
+        <EditText
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#D1D1D1"
+            android:hint="Mot de Passe"
+            android:background="@drawable/radius"
+            android:layout_gravity="center"
+            android:id="@+id/mdp"
+            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="350dp"/>
+        <EditText
+            android:padding="10dp"
+            android:hint="confirmation du mdp"
+            android:id="@+id/mdpconf"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:background="@drawable/radius"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#D1D1D1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="350dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/btnInscription"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/btn"
+            android:hint="S'inscrire"
+            android:textColorHint="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:gravity="center"
+                android:id="@+id/checkBox"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="se rappeler de moi" />
+            <TextView
+                android:layout_marginLeft="35dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mot de passe oublié"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnblue"
+            android:hint="Se Connecter"
+            android:id="@+id/btnConnection"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:textColorHint="#ffff"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Copyright JokerMavins-1999"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/red"
+            android:layout_marginBottom="25dp"/>
+    </LinearLayout>
+</RelativeLayout>
